@@ -3,7 +3,7 @@ a {
 }
 
 ul {
-
+  
   margin-bottom: 9px;
   background: gray;
 
@@ -16,6 +16,8 @@ li {
   display: inline;
   text-decoration: none;
   padding-left: 80px;
+  padding-bottom: 20px;
+
 }
 
 #logo {
@@ -27,7 +29,7 @@ li {
 .nav-item {
   margin-top: 5px;
   margin-bottom: 20px;
-  text-align: center;
+  
 }
 
 main {
@@ -39,18 +41,16 @@ main {
 footer {
   background: gray;
   height: 80px;
-  margin-top: 10px;
+  margin-top: 30px;
   padding: 10px;
 }
 
 #sub-banner-1, #sub-banner-2, #sub-banner-3 {
-display:inline-block;
 float: left;
 clear: right;
 height: 375px;
 width: 300px;
 background: gray;
-/* padding: 10px; */
 justify-content: center;
 margin-right: 30px;
 margin-top: 30px;
